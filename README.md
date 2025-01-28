@@ -1,14 +1,23 @@
-# nargp_tensorflow
-Just a notebook reproducing the Non-linear Autoregressive Gaussian Process (Perdikaris, et al, 2017)
+# multi-fidelity symbolic regression
+
+A repo to start the Symbolic regression for multi-fidelity project.
+
+Symbolic regression relies on MilesCranmer PySR.
+
+Suggestion for low-fidelity fitting using model_selection = "best",
+high-fidelity fitting using model_selection = "score" (avoiding relying too much on minimizing the loss).
+
+
 
 ## Example taken from [Adapt website](https://adapt-python.github.io/adapt/examples/Multi_fidelity.html)
 
-![image](https://github.com/jibanCat/nargp_tensorflow/assets/23435784/2d2e695a-d8d3-454a-a9cc-23fe93d5a575)
-
+![Image](https://github.com/user-attachments/assets/d5f13296-569c-43f4-9fc5-346a58e8a57d)
 ## Example taken from Emukit website (Forrester function)
 
-![image](https://github.com/jibanCat/nargp_tensorflow/assets/23435784/aee41f8f-7096-4afc-9424-0e791da4d54d)
+This is the most difficult example, but also shows the limitation of SR on this type of problem.
+
+![Image](https://github.com/user-attachments/assets/1a8ce773-4239-4a01-83e4-89cfae73ae46)
 
 ## Another example taken from Emukit website
 
-![image](https://github.com/jibanCat/nargp_tensorflow/assets/23435784/8ea7f9a8-2252-46c0-a918-92ba7fcb1a73)
+![Image](https://github.com/user-attachments/assets/ff6a50de-e0f5-4c89-8665-c3a5a1bba794)
